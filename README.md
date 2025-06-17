@@ -1,4 +1,4 @@
-# Internship Report - Diabetes Prediction Project Using Pima Indians Dataset
+# Diabetes Prediction Project Using Pima Indians Dataset
 
 ## Project Summary
 
