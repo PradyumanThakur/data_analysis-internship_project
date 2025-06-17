@@ -47,3 +47,31 @@ Yes. Prior to implementation, research was conducted to understand the medical a
 ![Process Flow](figures/process_flow.png)
 
 Figure 1 Workflow of the diabetes prediction project from data preprocessing to model deployment using Streamlit.
+
+---
+
+## Input / Output with Datasets
+### Input via Streamlit Interface 
+To make the diabetes prediction model user-friendly and accessible, a Streamlit web application was 
+developed. This interface allows users to input their health-related parameters directly through the browser. The 
+app accepts the following features as input: 
+- **Glucose** – Plasma glucose concentration (mg/dL)
+- **BMI** – Body Mass Index (kg/m²)
+- **Age** – Age of the patient (in years)
+- **Pregnancies** – Number of times pregnant
+- **Diabetes Pedigree Function** – A function that scores likelihood of diabetes based on family history 
+These inputs are captured through interactive number input fields in the Streamlit app. The entered values are preprocessed (StandardScaler) and passed to the trained machine learning model in real time.
+
+---
+
+## References
+- EISystems Services. (n.d.). Company Overview. https://eisystems.in/ 
+- Joshi, R. D., & Dhakal, C. K. (2021). Predicting Type 2 diabetes using logistic regression and machine learning approaches. International Journal of Environmental Research and Public Health, 18(14), 7346. https://doi.org/10.3390/ijerph18147346 
+- Matplotlib — Visualization with Python. (n.d.). https://matplotlib.org/ 
+- Microsoft. (n.d.). Draw.io / Diagrams.net. https://draw.io 
+- PIMA Indians Diabetes Database. (2016, October 6). Kaggle. https://www.kaggle.com/datasets/uciml/pimaindians-diabetes-database
+- scikit-learn: machine learning in Python — scikit-learn 1.6.1 documentation. (n.d.). https://scikit-learn.org/stable/ 
+- seaborn: statistical data visualization — seaborn 0.13.2 documentation. (n.d.). https://seaborn.pydata.org/ 
+- Streamlit Docs. (n.d.). https://docs.streamlit.io/
+
+---
