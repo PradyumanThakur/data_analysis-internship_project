@@ -44,7 +44,7 @@ Yes. Prior to implementation, research was conducted to understand the medical a
 
 ## Data Flow Diagram / Process Flow
 
-![Process Flow](figures/process_flow.png)
+<img src="figures/process_flow.png" alt="Process Flow" width="300"/>
 
 Figure 1 Workflow of the diabetes prediction project from data preprocessing to model deployment using Streamlit.
 
